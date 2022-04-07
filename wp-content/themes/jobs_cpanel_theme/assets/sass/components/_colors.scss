@@ -1,0 +1,52 @@
+$color-green: #5EC205;
+$color-red: #ED095F;
+$color-orange: #FF9316;
+$color-yellow: #FCED00;
+$color-purple: #9D278A;
+$color-teal: #00B6A3;
+$color-light-blue: #0091D9;
+$color-blue: #103E77;
+$color-dark-blue: #0f2c54;
+$color-white: #FFFFFF;
+$color-gray: #B9B9B9;
+$color-light-gray: #e4e4e4;
+$color-dark-gray: #6e6e6e;
+$color-black: #313131;
+
+$palette: (
+        color-green: $color-green,
+        color-red: $color-red,
+        color-orange: $color-orange,
+        color-yellow: $color-yellow,
+        color-purple: $color-purple,
+        color-teal: $color-teal,
+        color-light-blue: $color-light-blue,
+        color-blue: $color-blue,
+        color-dark-blue: $color-dark-blue,
+        color-black: $color-black,
+        color-white: $color-white,
+        color-gray: $color-gray,
+        color-light-gray: $color-light-gray,
+        color-dark-gray: $color-dark-gray,
+);
+
+
+@each $name, $color in $palette {
+  .bg-#{$name} {
+    background-color: #{$color} !important;
+  }
+
+  .text-#{$name} {
+    color: #{$color};
+  }
+
+  .border-#{$name} {
+    border-color: #{$color} !important;
+  }
+
+  .pill-#{$name} {
+    a:before {
+      background-color: #{$color} !important;
+    }
+  }
+}
