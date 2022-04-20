@@ -1,0 +1,279 @@
+@media (min-width: 640px){
+}
+
+@media (min-width: 37.5rem){
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-navigation {
+        ul {
+            display: none;
+        }
+    }
+    
+}
+    
+@media (min-width: 768px){
+    .hero-container {
+        width: 70%;
+        margin: 0;
+
+        h1 {
+            font-size: 3.5rem;
+            line-height: 3.7rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            width: 82%;
+            line-height: 2.1rem;
+            margin-bottom: 3.1rem;
+        }
+
+        .cta {
+            width: 42%;
+        }
+    }
+
+    .jobs-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2.8rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .why-we-love {
+        p {
+            width: 65%;
+        }
+    }
+
+    .video-container {
+        margin-top: 5rem;
+    }
+
+    .perks {
+        padding-top: 5.6rem;
+
+        h2 {
+            margin: 0 auto 2.2rem;
+            font-size: 3rem;
+            line-height: 3.7rem;
+            width: 62%;
+        }
+
+        p {
+            width: 84%;
+            margin: 0 auto 6rem;
+        }
+
+        .perks-icons {
+            display: flex;
+            flex-wrap: wrap;
+
+            .perks-box {
+                width: 17%;
+            }
+        }
+
+        .perks-icons-container {
+            margin-bottom: 3rem;
+        }
+    }
+
+    .gradient-section {
+        padding-top: 5.3rem;
+        padding-bottom: 6rem;
+
+        h2 {
+            margin-bottom: 2.5rem;
+        }
+
+        p {
+            margin-bottom: 5.4rem;
+        }
+
+        h4 {
+            font-size: 2.5rem;
+            margin-bottom: 1.6rem;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+
+            li {
+                display: inline;
+            }
+        }
+        
+    }
+
+    .cta-with-border {
+        margin: 0 auto;
+        width: 28%;
+    }
+
+    .icons-hero-mobile {
+        display: none;
+    }
+
+    .icons-hero-desktop {
+        display: block;
+        padding-bottom: 3.8rem;
+
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .perks-list {
+        display: block;
+        padding-top: 2.2rem;
+
+        article {
+            h2 {
+                font-family: $fontFamilyBold;
+                font-size: 1.5rem;
+                margin-bottom: 0;
+                line-height: 2.2rem;
+            }
+
+            p {
+                &.subtitle {
+                    margin-bottom: 1.4rem;
+                }
+
+                span {
+                    font-family: $fontFamilyBold;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .swiper {
+        .swiper-slide {
+            .author {
+                p {
+                    bottom: -28%;
+                    left: 7%;
+                }
+            }
+        }
+    }
+
+    .features {
+        .features-inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            article {
+                width: 33%;
+
+                img {
+                    max-width: 152px;
+                    height: auto;
+                    min-height: 140px;
+                }
+            }
+        }
+    }
+    
+}
+@media (min-width: 992px){
+
+    .site-branding {
+        position: static;
+        margin-left: 0;
+        width: 15%;
+    }
+
+    .site-header {
+        justify-content: flex-start;
+        padding: 1rem 0 1.5rem;
+    }
+
+    .main-navigation {
+        width: 85%;
+        margin-right: 0;
+
+        .menu-toggle {
+            display: none;
+        }
+
+        ul {
+            display: block;
+
+            li {
+                border-bottom: none;
+                padding: 0;
+                display: inline-block;
+
+                &:last-child {
+                    margin-right: 0;
+                    float: right;
+                    
+
+                    a {
+                        color: #FF6C2C;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #primary-menu {
+        position: static;
+        padding-top: 0.2rem;
+    }
+
+    .video-container {
+        iframe {
+            width: 924px;
+            height: 520px;
+        }
+    }
+
+    .perks {
+        .perks-icons {
+            display: flex;
+            flex-wrap: wrap;
+    
+            .perks-box {
+                width: 22%;
+                margin-bottom: 2.5rem;
+            }
+        }
+    }
+}
+    
+@media (min-width: 1024px){
+}
+
+@media (min-width: 1170px){
+    .jobs-container {
+        width: 1170px;
+    }
+
+}
+    
+@media (min-width: 1200px){
+}
